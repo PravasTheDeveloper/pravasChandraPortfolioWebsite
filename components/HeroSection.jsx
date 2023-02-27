@@ -28,9 +28,8 @@ function HeroSection() {
                                 }}
                             /></span>
                         </h3>
-                        <p className='md:text-base text-sm font-light md:font-normal md:w-[500px] w-full px-5 text-center md:text-left'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ab
-                            autem repellat reiciendis ipsam perspiciatis.
+                        <p className='md:text-base text-sm font-light md:font-normal md:w-[500px] w-full px-5 md:px-0 text-center md:text-left'>
+                        I am a front-end developer based in Bangladesh with expertise in Next.js and Tailwind CSS. I specialize in creating responsive and user-friendly web applications using these powerful technologies.
                         </p>
                         <div className='text-2xl flex mt-10 justify-center md:justify-start z-[100]'>
                             <div className='group'>
