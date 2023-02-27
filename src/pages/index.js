@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import HomePage from 'components/HomePage'
 import AboutSection from 'components/AboutSection'
+import SkillSection from 'components/SkillSection'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       <main className="">
         <HomePage />
         <AboutSection />
+        <SkillSection />
       </main>
     </>
   )
