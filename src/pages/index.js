@@ -2,9 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import HomePage from 'components/HomePage'
+import HomePage from 'components/HomePage/HomePage'
 import AboutSection from 'components/AboutSection'
-import SkillSection from 'components/SkillSection'
+import SkillSection from 'components/Skill Section/SkillSection'
+import ProtfolioSection from 'components/PortfolioSection/ProtfolioSection'
+import Contact from 'components/Contact'
+import Footer from 'components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +24,9 @@ export default function Home() {
         <HomePage />
         <AboutSection />
         <SkillSection />
+        <ProtfolioSection />
+        <Contact />
+        <Footer />
       </main>
     </>
   )
