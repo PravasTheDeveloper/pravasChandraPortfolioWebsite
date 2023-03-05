@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function ProtfolioSection() {
@@ -25,9 +26,11 @@ function ProtfolioSection() {
 
                                 </div>
                             </div>
-                            <div className=' w-full h-full'>
-                                <div className='w-full h-full '>
-
+                            <div className='w-full h-full'>
+                                <div className='w-full h-full md:pt-2 tp-4 overflow-hidden'>
+                                    <a href="https://facebook-clone-eight-ecru.vercel.app/" target="_blank">
+                                        <img src="portfolio_image\projectThree.png" alt="" />
+                                    </a>
                                 </div>
                             </div>
                             <div className='w-full h-full'>
@@ -40,7 +43,14 @@ function ProtfolioSection() {
                             </div>
                         </div>
                     </div>
+
                 </div>
+
+            </div>
+            <div className='maincolor pb-10 flex justify-center'>
+                <button className='bg-cyan-400 px-10 py-3 rounded-lg'>
+                    <Link href="/portfolio">SEE ALL</Link>
+                </button>
             </div>
         </>
     )
