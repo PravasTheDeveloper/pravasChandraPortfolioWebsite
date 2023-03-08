@@ -33,12 +33,12 @@ function ProtfolioSection() {
                                     </a>
                                 </div>
                             </div>
-                            <div className='w-full h-full'>
-                                <div className='w-full h-1/2 md:p-2 p-4 overflow-hidden'>
-                                    <img src="portfolio_image\projectFour.png" alt="" />
-                                </div>
-                                <div className='w-full h-1/2 md:p-2 p-4 overflow-hidden'>
-                                    <img src="portfolio_image\projectFive.png" alt="" />
+                            <div className='w-full h-full ml-2'>
+                                <div className='w-full h-full md:pt-2 tp-4 overflow-hidden'>
+                                    <a href="https://whats-app-ui-git-main-pravasthedeveloper.vercel.app/" target="_blank">
+                                        <img src="portfolio_image\projectSix.png" alt="" />
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
