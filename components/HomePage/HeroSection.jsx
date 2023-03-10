@@ -49,7 +49,7 @@ function HeroSection() {
                             </div>
                             <div className='group'>
                                 <div className='w-12 h-12 border-4 border-cyan-400 group-hover:border-white duration-500 flex justify-center items-center mr-7 rounded-full'>
-                                    <a href="https://www.linkedin.com/in/pravas-chandra-39b466215/" target="_blank">
+                                    <a href="https://www.linkedin.com/in/pravaschandrathenextjsdeveloepr/" target="_blank">
                                         <FaLinkedinIn className='text-cyan-400 group-hover:text-white' />
                                     </a>
                                 </div>
