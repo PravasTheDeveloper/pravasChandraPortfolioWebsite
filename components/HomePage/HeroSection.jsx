@@ -56,7 +56,7 @@ function HeroSection() {
                             </div>
                         </div>
                         <div className='mt-10 md:text-left text-center'>
-                            <button className='bg-cyan-400 p-5 py-3 rounded-md'><a href="\cv\pravas__chandra__resume.pdf" download="projectFour">Download CV</a></button>
+                            <button className='bg-cyan-400 p-5 py-3 rounded-md'><a href="\cv\pravas__chandra__resume.pdf" download="pravas__chandra__resume.pdf">Download CV</a></button>
                         </div>
                     </div>
                     <div className='md:flex justify-end w-1/2 hidden'>
