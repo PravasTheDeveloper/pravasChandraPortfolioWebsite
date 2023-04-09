@@ -30,7 +30,7 @@ function NavigationBar() {
                         
                     </div>
                 </div>
-                <div className='bg-[#00000000] z-40 w-[90%] right-0 h-full absolute md:hidden' onClick={() =>{setleftsideslider(false)}}>
+                <div className={leftsideslider === true ? 'bg-[#0000] z-40 w-[90%] right-0 h-full absolute md:hidden' : 'bg-[#fff0] z-40 w-[90%] right-0 h-full absolute hidden'} onClick={() =>{setleftsideslider(false)}}>
                         
                 </div>
                 <div className={leftsideslider === true ? "md:hidden absolute bg-slate-700 w-[80%] h-full left-0 top-0 z-50 duration-500": " md:hidden absolute bg-slate-700 w-[80%] h-full left-[-1000px] top-0 z-50  duration-300" }>
