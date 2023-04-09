@@ -4,7 +4,7 @@ import SkillshowSec from './SkillshowSec'
 function SkillSection() {
     return (
         <>
-            <div className='maincolor md:h-screen h-full'>
+            <div className='maincolor 3xl:h-screen h-full'>
                 <div className='w-full h-full container mx-auto py-10'>
                     <h1 className='text-5xl text-white text-center'>My Skills</h1>
                     <div className='w-full h-2 bg-cyan-400 rounded-full'>
